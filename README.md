@@ -1,4 +1,4 @@
-# 155GISE
+# 155CART
 
 [Project Homepage](https://k155cvut.github.io/gise/)
 
