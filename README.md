@@ -1,6 +1,6 @@
 # 155CART
 
-[Project Homepage](https://k155cvut.github.io/gise/)
+[Project Homepage](https://k155cvut.github.io/cart/)
 
 [MkDocs Material dokumentace](https://squidfunk.github.io/mkdocs-material/)
 
