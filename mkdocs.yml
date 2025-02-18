@@ -1,0 +1,99 @@
+site_name: Geographic Information Systems (155GISE)
+nav:
+  - Course information: index.md
+  - Practicals:
+      - Introduction to ArcGIS, spatial data, data sources: practicals/practical1.md
+      - Vector data, attribute queries, spatial queries: practicals/practical2.md
+      - Coordinate systems: practicals/practical3.md
+      - Creating vector data, Editing tools, Calculate Field & Geometry: practicals/practical4.md
+      - Join, spatial join: practicals/practical5.md
+      - Geoprocessing tools: practicals/practical6.md
+      - Geoprocessing tools for raster data: practicals/practical7.md
+      - Data sources, Web map services: practicals/practical8.md
+      - Geocoding: practicals/practical9.md
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/favicon.png
+  logo: assets/favicon.svg
+  icon:
+    annotation: material/plus-circle
+  features:
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.tooltips
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: indigo
+      accent: indigo
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/CTUGeomatics
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/geomatics.ctu
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/geomatics.ctu
+copyright: <a href="https://geomatics.fsv.cvut.cz" target="_blank">Katedra geomatiky</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2023-2024
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.caret
+  - pymdownx.tilde
+
