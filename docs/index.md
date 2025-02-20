@@ -1,5 +1,5 @@
 
-# Geographic Information Systems {: .page_title}
+# Cartography {: .page_title}
 
 This course will introduce you the basics of __geographic information systems__ (GIS). GIS is a set of tools used to __collect__, __manage__, __analyze__ and __visualize__ geographic data. It allows you to work efficiently with spatial information, which includes __maps__, __satellite images__, __postal addresses__, __topographic data__ and much more. It can perform complex analyses, identify patterns, and thus __better understand geographic phenomena and relationships__.
 
@@ -70,8 +70,8 @@ attendance recommended
 {: style="opacity:50%;margin-top:0;"}
 
 ![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-1.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-__prof. Ing. Jiří Cajthaml, Ph.D.__ __&nbsp;__{style="margin-left:1rem;"}![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-__Ing. Tomáš Janata, Ph.D.__
+[__prof. Ing. Jiří Cajthaml, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/jiri-cajthaml/)__&nbsp;__{style="margin-left:1rem;"}![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
+[__Ing. Tomáš Janata, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/tomas-janata/)
 
 <!--
 1. &nbsp;
@@ -91,18 +91,18 @@ __Ing. Tomáš Janata, Ph.D.__
 attendance required
 {: style="opacity:50%;margin-top:0;"}
 
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-13.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-__Ing. Josef Münzberger__ __&nbsp;__{style="margin-left:1rem;"}![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.3x.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-__Ing. Vojtěch Cehák__
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-16.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
+[__Mgr. Petra Justová, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/petra-justova/)
 
-## Schedule (2024) {: style="margin-bottom:0;"}
 
-[![](./assets/index/schedule.svg#only-light){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/155GISE/semester/B241){target="_blank"}
-[![](./assets/index/schedule_dark.svg#only-dark){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/155GISE/semester/B241){target="_blank"}
+
+## Schedule (2025) {: style="margin-bottom:0;"}
+
+[![](./assets/index/Schedule2025.png){.off-glb .no-filter style="width: 800px;"}](https://kos.cvut.cz/schedule/course/155CART/semester/B242){target="_blank"}
 
 ---
 
-[Course page in :custom-kos-logo-img-BW:{.middle style="margin-left:3px;"} :custom-kos-logo-BW:{.xl .middle}](https://kos.cvut.cz/course-syllabus/155GISE/B241 "KOS is the official university administration system"){ .md-button .md-button--primary target="_blank"}
+[Course page in :custom-kos-logo-img-BW:{.middle style="margin-left:3px;"} :custom-kos-logo-BW:{.xl .middle}](https://kos.cvut.cz/course-syllabus/155CART/B242 "KOS is the official university administration system"){ .md-button .md-button--primary target="_blank"}
 {align=center}
 
 <br>
