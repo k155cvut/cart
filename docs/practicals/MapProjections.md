@@ -1,6 +1,6 @@
 ---
-icon: material/numeric-3-box
-title: Practical 3
+icon: material/numeric-2-box
+title: Practical 2
 ---
 
 # Coordinate systems

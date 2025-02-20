@@ -1,6 +1,6 @@
 ---
-icon: material/numeric-9-box
-title: Practical 9
+icon: material/numeric-3-box
+title: Practical 3
 ---
 
 # Geocoding
