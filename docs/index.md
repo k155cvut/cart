@@ -1,17 +1,17 @@
 
 # Cartography {: .page_title}
 
-This course will introduce you the basics of __geographic information systems__ (GIS). GIS is a set of tools used to __collect__, __manage__, __analyze__ and __visualize__ geographic data. It allows you to work efficiently with spatial information, which includes __maps__, __satellite images__, __postal addresses__, __topographic data__ and much more. It can perform complex analyses, identify patterns, and thus __better understand geographic phenomena and relationships__.
+Cartography has a wide range of applications, especially in combination with other disciplines such as __urban planning__, __demography__ and __statistics__, __environmental sciences__, __economics__, __crisis management__, etc. It is a valuable tool for the effective transfer of spatial information to better understand complex geographical contexts.
 
-GIS has a wide range of applications, from __urban planning__ to __natural resource management__ and __crisis management__. It is an indispensable tool for effective decision-making and management in various sectors and helps to better understand complex geographical contexts.
+This course introduces students to the basics of mathematical, topographic and thematic cartography. It also includes an excursion into polygraphic techniques, theory of colour, copyright and editorial works. The main goal is to teach the students the theory and practical issues of cartographic science, making them able to create a quality thematic, topographical or schematic map, understand the principles of their creation, the correct use of colours, fonts, etc.
 
-This course is an intro to this topic. While the lectures take you through the basic theory, the practicals focus on the practical use of GIS software - in particular, understanding how to work with data and perform simple analyses. __:simple-arcgis: Esri ArcGIS Pro__{: style="white-space: nowrap;"} software is used throughout the course.
+__:simple-arcgis: Esri ArcGIS Pro__{: style="white-space: nowrap;"} software is used throughout the course.
 
-<h2 style="text-align:center;">What will you learn</h2>
+<!-- <h2 style="text-align:center;">What will you learn</h2>-->
 <!-- styl je zde pridany HTML tagem (ne pomoci '##'), aby se text neobjevil v tabulce obsahu vlevo na strance -->
 
-<div class="grid cards grid_icon_info smaller_padding" markdown> <!-- specificky format gridu (trida "grid_icon_info") na miru uvodni strance predmetu -->
-
+<!-- <div class="grid cards grid_icon_info smaller_padding" markdown> <!-- specificky format gridu (trida "grid_icon_info") na miru uvodni strance predmetu -->
+<!--
 -   :material-map-outline:{ .xl }
 
     __process__ and __analyze__ spatial (geographic, map) data
@@ -41,7 +41,7 @@ This course is an intro to this topic. While the lectures take you through the b
     create models for __automated processing__ (_ModelBuilder_)
 
 
-</div>
+</div>-->
 
 <div class="gallery_container" markdown>
 ![](https://geo.fsv.cvut.cz/data/cehak/MkDocs/index/01.jpg){: .no-filter }
@@ -60,9 +60,11 @@ This course is an intro to this topic. While the lectures take you through the b
 
 ## Literature
 
-- Bolstad, P. (2005) GIS Fundamentals: A First Text on Geographic Information Systems. 2nd Edition, Eider Press, White Bear Lake, Minnesota.
-- De Smith, M.J., Goodchild, M.F. and Longley, P.A. (2015) Geospatial Analysis A Comprehensive Guide to Principles, Techniques, and Software Tools.
-- P. A. Burrough, Rachael McDonnell (1998) Principles of Geographical Information Systems. Oxford University Press.
+- Brewer, C.A (2005) Designing Better Maps: A Guide for GIS Users. 2nd Edition, Esri Press, Redlands, California.
+- Field K. (2018) Cartography: A compendium of design thinking for mapmakers. Esri Press, Redlands, California.
+- Field K. (2022) Thematic mapping: 101 inspiring ways to visualise empirical data. Esri Press, Redlands, California.
+- Lambert, N. and Zanin, C. (2020). Practical handbook of thematic cartography: Principles, methods, and applications. CRC Press.
+- Slocum, T. A., et al. (2008) Thematic Cartography and Geovisualization. 3rd Edition, Prentice Hall.
 
 ## Lectures {: style="margin-bottom:0;"}
 

@@ -34,9 +34,29 @@ title: Practical 2
 {: align=center}
 
 <br>
-!!! note-grey "Note"
+!!! note-grey "Projection on the fly"
 
     *Projection on the fly* is what ArcGIS does to **resolve conflicts** when your data is in a different coordinate system than your map. It does this so the data can draw in the correct place on the map. *Projection on the fly* ensures that the data draws in the map’s coordinate system, even though it is still stored in other coordinate systems. ArcGIS will **always** apply *projection on the fly* when it’s needed. It can’t draw the data on your map otherwise.
+
+??? note-grey "WKID"
+
+    The **Well-Known ID (WKID)** is a unique number assigned to a coordinate system. You can find the WKID in the Coordinate Systems Details window. Once you know this number, it’s a handy way to search for the coordinate system later. The authority of the WKID will either be [EPSG](https://epsg.org/home.html) or Esri but these numbers don’t overlap, so there’s no need to worry about which authority defined the ID. Most geographic information systems (GIS) and GIS libraries use EPSG codes as Spatial Reference System Identifiers (SRIDs) and EPSG definition data for identifying coordinate reference systems, projections, and performing transformations between these systems.
+
+
+    <figure markdown>
+    ![Coordinate Systems Details window](../assets/cviceni2/WKID.png "Coordinate Systems Details window"){ width=400px }
+    <figcaption>Coordinate Systems Details window</figcaption> 
+    </figure>
+
+??? note-grey "WKT"
+
+    The **Well-Known Text (WKT)** is a text markup language that defines all necessary parameters of a coordinate system. To eplore the WKT of the coordinate system, save its projection file (.prj) and open it in a text editor.
+    
+
+    <figure markdown>
+      ![Example of WKT for WGS84](../assets/cviceni2/WKT.png "Example of WKT for WGS84"){ width=400px }
+      <figcaption>Example of WKT for WGS84</figcaption> 
+    </figure>
 <br>
 **Sources:**
 {: align=center }
