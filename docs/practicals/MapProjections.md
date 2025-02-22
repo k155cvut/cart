@@ -108,6 +108,21 @@ The primary advantage of the Mercator projection, and consequently the Web Merca
     
     - Which projection distorts the shape of Iceland the most/the less? Compare the total area of Iceland in these projections with its actual size.
     
+    ??? tip "How-To"
+        To calculate the total area of Iceland in each projection you have to do following steps:
+        
+        1. Use the *Project* tool to project spatial data to PCS.
+        2. In the attribute table, add a new field for each projection (e.g. *area_merc*, *area_bonne*, *area_cube*, etc.). 
+        3. Use the *Calculate Geometry* tool to calculate the area of Iceland in all desired projections.
+
+          <figure markdown>
+            ![Setting the Calculate Geometry tool](../assets/cviceni2/CalculateGeometry2.png "Setting the Calculate Geometry tool"){ width=400px }
+            <figcaption>Setting the Calculate Geometry tool</figcaption> 
+          </figure>
+
+
+
+
     <br>
     **DATA SOURCES:**
     
