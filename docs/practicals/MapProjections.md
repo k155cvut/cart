@@ -89,7 +89,6 @@ The primary advantage of the Mercator projection, and consequently the Web Merca
 
     Make a map showing distortions and area of Iceland in following projections:
     
-    - Goode Homolosine
     - Bonne
     - Winkel–Tripel
     - Mollweide
@@ -100,6 +99,9 @@ The primary advantage of the Mercator projection, and consequently the Web Merca
     - Plate Carée
     - Mercator
 
+
+    For comparison, add a map of Iceland in the map projection that is recommended for displaying Iceland.
+
     <br>
     Your map should look similar to this [map](https://blogs.egu.eu/divisions/cr/2023/06/16/it-aint-easy-being-greenland/).
 
@@ -107,6 +109,8 @@ The primary advantage of the Mercator projection, and consequently the Web Merca
     In technical report answer following questions:
     
     - Which projection distorts the shape of Iceland the most/the less? Compare the total area of Iceland in these projections with its actual size.
+    - Name at least three map projections, that are most suitable (according to their accuracy) for displaying Iceland. Where can you find the information about these map projections?    
+    
     
     ??? tip "How-To"
         To calculate the total area of Iceland in each projection you have to do following steps:
