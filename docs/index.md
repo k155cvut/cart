@@ -75,18 +75,17 @@ attendance recommended
 [__prof. Ing. Jiří Cajthaml, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/jiri-cajthaml/)__&nbsp;__{style="margin-left:1rem;"}![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
 [__Ing. Tomáš Janata, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/tomas-janata/)
 
-<!--
-1. &nbsp;
-2. &nbsp;
-3. &nbsp;
-4. &nbsp;
-5. &nbsp;
-6. &nbsp;
-7. &nbsp;
-8. &nbsp;
-9. &nbsp;
-10. &nbsp;
--->
+
+1. Introduction to the course
+2. Mathematical cartography
+3. Map language, content and composition
+4. Methods of terrain visualisation
+5. Thematic maps I, colours and scales in maps
+6. Thematic maps II
+7. History of cartography and state map work
+8. Map production process, data sources, INSPIRE, copyright
+9. Colour spaces and reproduction
+
 
 ## Practicals {: style="margin-bottom:0;"}
 
@@ -96,6 +95,18 @@ attendance required
 ![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-16.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
 [__Mgr. Petra Justová, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/petra-justova/)
 
+1. Introduction to ArcGIS, spatial data, data sources
+2. Map Projections in Detail
+3. Spatial Data, Geocoding
+4. Georeferencing
+5. Vectorization
+6. Choropleth Maps 1
+7. Choropleth Maps 2
+8. Diagram Maps
+9. Cartograms
+10. Multivariate mapping
+11. Grid Maps, Data Binning
+12. Webmapping
 
 
 ## Schedule (2025) {: style="margin-bottom:0;"}
