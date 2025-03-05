@@ -81,9 +81,9 @@ __Resources:__
     ???+ tip "Checking the geocoding results"
         There could be several results for geocoded addresses:
             
-        - Matched
-        - Tied 
-        - Unmatched
+        - Matched (M)
+        - Tied (T) - *The address has more than one candidate with the same best match score but at different locations.*
+        - Unmatched (U)
 
             <br>
             <figure markdown>
