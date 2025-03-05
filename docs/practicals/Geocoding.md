@@ -2,8 +2,60 @@
 icon: material/numeric-3-box
 title: Practical 3
 ---
+# Spatial data and geocoding
 
-# Geocoding
+Spatial data is any type of data that directly or indirectly references a specific geographical area or location. A location can be represented not only by a combination of coordinates (X + Y, latitude + longitude, etc.), but also by, for example, an address (of arbitrary detail). The two most common data formats used to store (geo)spatial data are vector and raster.
+
+## Spatial data types
+
+<div class="grid cards" markdown>
+
+-   :material-vector-polyline:{ .lg .middle } __Vector data__
+
+    ---
+
+    - represent elements of the real world using basic geometric elements: __points, lines and surfaces__ (called polygons)
+
+    - the detail of the data is determined by the __detail of the coordinates of the vertices__ of the geometric feature
+
+    - suitable for modelling and analysis of __discrete objects__ (e.g. location of points, land cover categories)
+
+    - suitable for __map creation, length measurements, geometric calculations__
+
+    - possible problems with __topology__ (gaps and overlaps)
+
+    - basic vector data formats are __Esri Shapefile, GeoJSON, GeoPackage__ or __KML/GML__
+
+
+
+-   :material-grid:{ .lg .middle } __Raster data__
+
+    ---
+
+    - represent real world elements in the form of a regular grid made up of  __pixels__ (from *picture element*)
+
+    - the detail of the data is determined by the __spatial resolution__ of the grid, i.e. the __size__ of the __pixel__ edge (in meters)
+
+    - suitable for modeling and analysis of __connected phenomena__ (elevation, temperature, precipitation)
+    
+    - used for __image data__ (e.g. satellite imagery)
+
+    - raster datasets can become potentially very large
+
+    - basic raster data formats are __GeoTIFF, JPEG, PNG__ or __GIF__
+
+
+</div>
+
+
+<figure markdown>
+  ![Difference in graphical representation of vector and raster data](../assets/cviceni3/VectorVsRaster.png "Difference in graphical representation of vector and raster data"){ width=600px }
+  <figcaption>Difference in graphical representation of vector and raster data (Geletič et al. 2019)</figcaption>
+</figure>
+
+<hr class="level-1">
+
+## Geocoding
 Finding places on a map is an integral part of a GIS. *Geocoding* is the process of transforming a description of a location (such as a pair of coordinates, an address, or a name of a place) to a location on the earth's surface. You can geocode by providing one location description at a time to zoom to a location on a map or convert an entire table that can be used for spatial analysis. When you *geocode* a table of addresses, you use a locator to create point features that represent the locations of the addresses.
 
 <figure markdown>
@@ -76,10 +128,10 @@ __Resources:__
         <figcaption>Geocoding guide in ArcGIS Pro</figcaption> 
         </figure>
 
-    - Check the geocoded feature class. If there are any *unmatched* results or *matched*/*tied* results with low precision, rematch the geocoded addresses.
+    - If there are any *unmatched* results or *matched*/*tied* results with low precision *(Score)*, use the interactive *Rematch* tool to make corrections to your original input *(Data-Rematch Addresses)*.
 
-    ???+ tip "Checking the geocoding results"
-        There could be several results for geocoded addresses:
+    ??? tip "Checking the geocoding results"
+        There could be several results for geocoded addresses with different precision *(Score)*:
             
         - Matched (M)
         - Tied (T) - *The address has more than one candidate with the same best match score but at different locations.*
@@ -87,30 +139,29 @@ __Resources:__
 
             <br>
             <figure markdown>
-            ![Geocoding guide in ArcGIS Pro](../assets/cviceni3/GeocodedTable.png "Geocoding guide in ArcGIS Pro"){ width=600px }
+            ![Geocoding guide in ArcGIS Pro](../assets/cviceni3/GeocodedTable.png "Geocoding guide in ArcGIS Pro"){ width=800px }
             <figcaption>Geocoding guide in ArcGIS Pro</figcaption> 
             </figure>
         
-        After a table of addresses is geocoded, you may find that not all of the addresses or locations in your table were matched to the results you expected; for example, points may not have been created in the location you expected or may lack the precision you were expecting. Inspecting your table may reveal the reason for an unexpected match; for instance, your input may have been missing a city field, or the street name may have been misspelled. For cases such as these, you can review the results, make corrections in your table, and update your geocoding results. You can use the interactive rematch tool in ArcGIS Pro to manually review addresses to make corrections to your original input and geocode again, reposition the location of the matched address, or select a different candidate. You can also modify the locator's settings and geocode the addresses that were matched to unexpected results. This process is called rematching.
-
-<br>
+        If you find that not all of the addresses or locations in your table were matched to the results you expected (e. g. points may not have been created in the location you expected or may lack the precision you were expecting). Inspect the table of the geocoded feature class to reveal the reason for an unexpected match (e.g. missing a city field in input, misspelled street name, etc.). For cases such as these, you can review the results, make corrections in your table, and update your geocoding results. You can use the interactive rematch tool in ArcGIS Pro to manually review addresses to make corrections to your original input and geocode again, reposition the location of the matched address, or select a different candidate. You can also modify the locator's settings and geocode the addresses that were matched to unexpected results. This process is called rematching.
+    <br>
     **Step 2:** **Data visualization**
-    - Use optional symbolization of the layer.
-    - In *New Layout* (A3 Portrait) insert the Map Title, Scale and Credits
-    - Label each location (Name+Date).
+
+    - Insert *New Layout* and place the *Map Frame* <br>
+    *(choose any format in any orientation, you can also customize the page size and create a square-shaped format, for example)*
+    - Set the proper scale of the map <br>
+    *(Use Zoom to Layer to center the map frame on the area of interest, then round the map scale. You can also activate the map frame and move the map content manually.)*
+    - In *Map Properties* set *the Reference scale* to your chosen map scale.
+    - Find appropriate symbols to represent the location of cities and choose a suitable base map. <br>
+    *(If there are available some supplemental attributes like attendance or revenue, you can use advanced symbology like proportional symbols or graduated colors)*
+    - Label each location with its name and with the date of the concert <br>
+    *(Try to use an Arcade expression, e.g. ``$feature.PlaceName +TextFormatting.NewLine+"<FNT size='8'>"+"("+$feature.USER_Date+")"+"</FNT>"``)*
+    - Finish the layout: insert *Map Title*, *Scale*, *Legend* (if necessary) and *Credits*. Feel free to make it nice! You can see an inspiration for your output below. <br>
+    *(If you are not satisfied with the symbols offered in default [styles](https://pro.arcgis.com/en/pro-app/latest/help/projects/styles.htm), you can create your own symbol or use one of the [user-created styles](https://esri-styles.maps.arcgis.com/home/index.html).)*
     - Export *Layout* in PDF Format
 
-    **1.** In *Map Properties* set appropriate Reference scale.
-
-    **2.** Find appropriate symbols to represent the points and use suitable basemap. If there are available some supplemental attributes like attendance or revenue, you can use advanced symbology like proportional symbols or graduated colors.
-
-    **3.** Label features (you can use either name, date, or expression consisting of name and state code for example)
-
-    **4.** Optionaly, you can you *Points to Lines* to connect the tour locations.
-
-    **3.** Insert the A3 format layout (choose landscape or portrait orientation).
-
-    **4.** Finish the layout: insert map window, add title, subtitle, legend, and credits. Feel free to make it nice! You can see an inspiration for your output below.
-
-    ![](../assets/cviceni9/Elton.png){ .no-filter .off-glb }
+    <br>
+    ![](../assets/cviceni9/Elton.png){ width=800px }
     {: align=center}
+
+    
