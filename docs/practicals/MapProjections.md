@@ -136,7 +136,7 @@ The primary advantage of the Mercator projection, and consequently the Web Merca
     
     **SUBMISSION FORM:**
 
-    - technical report + 1 map in PDF format
+    - technical report + 1 map in PDF format (submit by 15/03, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
     
     <br>
     **INSTRUCTIONS:**

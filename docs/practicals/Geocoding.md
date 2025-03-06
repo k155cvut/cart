@@ -36,7 +36,7 @@ Spatial data is any type of data that directly or indirectly references a specif
 
     - the detail of the data is determined by the __spatial resolution__ of the grid, i.e. the __size__ of the __pixel__ edge (in meters)
 
-    - suitable for modeling and analysis of __connected phenomena__ (elevation, temperature, precipitation)
+    - suitable for modeling and analysis of __continuous phenomena__ (elevation, temperature, precipitation)
     
     - used for __image data__ (e.g. satellite imagery)
 
@@ -89,7 +89,10 @@ __Resources:__
 !!! abstract "My favourite artist tour"
     **TASK:**
 
-    Make a map showing the tour of your favourite artist on a selected continent in one year. Your map should display all the locations that the artist visited during the tour and the date of the concert at that location.
+    Make a map showing the tour of your favourite artist on a selected continent in one year. Your map should display following information:
+    
+    - all the locations that the artist visited during the tour
+    - the total revenue from concerts in a given location
 
     <br>
     **DATA SOURCES:**
@@ -100,7 +103,7 @@ __Resources:__
     
     **SUBMISSION FORM:**
 
-    - 1 map in PDF format
+    - 1 map in PDF format (submit by 15/03, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
     
     <br>
     **INSTRUCTIONS:**
@@ -110,7 +113,7 @@ __Resources:__
     - Pick one of your favourite artists and search the Wikipedia for one of his/her tours. <br>
     *(If you are not into music, you can use [Farewell Yellow Brick Road tour](https://en.wikipedia.org/wiki/Farewell_Yellow_Brick_Road) by Elton John for this task.)*
     - Import data to MS Excel, edit the table and save it in .xlsx format.  <br>
-    *(Limit the tour extent to one continent and one year (e.g. Europe in 2019). If there was more than one concert in a city, edit "Date" attribute to show the date range or all dates separately, leave only one record for each city.)*
+    *(Limit the tour extent to one continent and one year (e.g. Europe in 2019). If there was more than one concert in a city, edit "Date" field to show the date range (or all dates separately) and edit "Revenue" field (add the revenue of all concerts in a given city), so there is only one record for each city.)*
         
         <br>
 
@@ -153,10 +156,10 @@ __Resources:__
     *(Use Zoom to Layer to center the map frame on the area of interest, then round the map scale. You can also activate the map frame and move the map content manually.)*
     - In *Map Properties* set *the Reference scale* to your chosen map scale.
     - Find appropriate symbols to represent the location of cities and choose a suitable base map. <br>
-    *(If there are available some supplemental attributes like attendance or revenue, you can use advanced symbology like proportional symbols or graduated colors)*
+    *(Use advanced symbology like proportional symbols or graduated colors to display the total revenue from concerts in a given city)*
     - Label each location with its name and with the date of the concert <br>
     *(Try to use an Arcade expression, e.g. ``$feature.PlaceName +TextFormatting.NewLine+"<FNT size='8'>"+"("+$feature.USER_Date+")"+"</FNT>"``)*
-    - Finish the layout: insert *Map Title*, *Scale*, *Legend* (if necessary) and *Credits*. Feel free to make it nice! You can see an inspiration for your output below. <br>
+    - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*. Feel free to make it nice! You can see an inspiration for your output below. <br>
     *(If you are not satisfied with the symbols offered in default [styles](https://pro.arcgis.com/en/pro-app/latest/help/projects/styles.htm), you can create your own symbol or use one of the [user-created styles](https://esri-styles.maps.arcgis.com/home/index.html).)*
     - Export *Layout* in PDF Format
 
