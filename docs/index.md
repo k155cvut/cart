@@ -98,15 +98,13 @@ attendance required
 1. Introduction to ArcGIS, spatial data, data sources
 2. Map Projections in Detail
 3. Spatial Data, Geocoding
-4. Georeferencing
-5. Vectorization
-6. Choropleth Maps 1
-7. Choropleth Maps 2
-8. Diagram Maps
-9. Cartograms
-10. Multivariate mapping
-11. Grid Maps, Data Binning
-12. Webmapping
+4. Georeferencing, Vectorization
+5. Choropleth Maps 1
+6. Choropleth Maps 2
+7. Diagram Maps
+8. Multivariate mapping
+9. Grid Maps, Data Binning
+10. Webmapping
 
 
 ## Schedule (2025) {: style="margin-bottom:0;"}
