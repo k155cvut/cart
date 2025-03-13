@@ -5,6 +5,7 @@ nav:
       - Introduction to ArcGIS, spatial data, data sources: practicals/Introduction.md
       - Map projections: practicals/MapProjections.md
       - Geocoding: practicals/Geocoding.md
+      - Georeferencing, Vectorization: practicals/Georeferencing.md
   - Data sources: DataSources.md
 plugins:
   - search
