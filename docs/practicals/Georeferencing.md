@@ -32,7 +32,7 @@ __Resources:__
 !!! abstract "Urban development of the city"
     **TASK:**
 
-    Make a map showing the urban expansion of chosen city (your hometown, the capital of your country, ...). Derived the extent of built-up areas from old maps (try to show at least three time periods including this year). Try to quantify the change (in relative and absolute numbers).
+    Make a map showing the urban development of chosen city (your hometown, the capital of your country, ...). Derived the extent of built-up areas from old maps (try to show at least three time periods including this year). Try to quantify the change (in relative and absolute numbers).
 
     <br>
     In technical report answer following questions:
@@ -42,7 +42,8 @@ __Resources:__
     <br>
     **DATA SOURCES:**
     
-      [:material-map: Plan of Prague (1920–1930)](../assets/cviceni4/Prague_Plan_1920-1930_detail.png){:download}
+      [:material-map: Plan of Prague (1920–1930)](../assets/cviceni4/Prague_Plan_1920-1930_detail.jpg){ .md-button .md-button--primary .button_smaller }
+      {: .button_array style="justify-content:flex-start;"}
     
     <br>
     **SUBMISSION FORM:**

@@ -109,6 +109,8 @@ attendance required
 
 ## Schedule (2025) {: style="margin-bottom:0;"}
 
+Up-to-date schedule is available on [__GeoWikiCZ__](https://geo.fsv.cvut.cz/gwiki/155CART_Cartography){.color_def .underlined_dotted .external_link_icon target="_blank"}
+
 [![](./assets/index/Schedule2025.png){.off-glb .no-filter style="width: 800px;"}](https://kos.cvut.cz/schedule/course/155CART/semester/B242){target="_blank"}
 
 ---
