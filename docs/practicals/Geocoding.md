@@ -103,7 +103,7 @@ __Resources:__
     
     **SUBMISSION FORM:**
 
-    - 1 map in PDF format (submit by 15/03, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
+    - 1 map in PDF format (submit by 16/03, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
     
     <br>
     **INSTRUCTIONS:**
