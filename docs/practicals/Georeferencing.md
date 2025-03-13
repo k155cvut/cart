@@ -29,7 +29,7 @@ __Resources:__
 
 
 ## Assignment 03
-!!! abstract "My favourite artist tour"
+!!! abstract "Urban development of the city"
     **TASK:**
 
     Make a map showing the urban expansion of chosen city (your hometown, the capital of your country, ...). Derived the extent of built-up areas from old maps (try to show at least three time periods including this year). Try to quantify the change (in relative and absolute numbers).
