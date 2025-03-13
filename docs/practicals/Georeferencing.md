@@ -60,7 +60,7 @@ __Resources:__
     *(If you find an already georeferenced map that is provided as a [WMS/WMTS]("A Web Map Service (WMS) or Web Map Tile Service (WMTS) are standard protocols for serving geospatial data as images (e.g., PNG, JPEG) over the web. It allows clients to request maps and map layers from a server and display them on a map viewer or client application."), connect it to ArcGIS Pro __(1)__{title="How to add WMS/WMTS service to ArcGIS Pro"}. and proceed to step 3)*
 
     [OldMapsOnline](https://www.oldmapsonline.org/){ .md-button .md-button--primary .server_name .external_link_icon_small target="_blank"}
-    [David Rumsey Map Collection](https://pro.arcgis.com/en/pro-app/latest/help/data/geocoding/rematch-locations-converted-from-a-table.htm){ .md-button .md-button--primary .server_name .external_link_icon_small target="_blank"}
+    [David Rumsey Map Collection](https://www.davidrumsey.com/){ .md-button .md-button--primary .server_name .external_link_icon_small target="_blank"}
     {: .button_array}
         
     <br>
