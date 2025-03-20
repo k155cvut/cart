@@ -6,6 +6,7 @@ nav:
       - Map projections: practicals/MapProjections.md
       - Geocoding: practicals/Geocoding.md
       - Georeferencing, Vectorization: practicals/Georeferencing.md
+      - Choropleth Maps (part 1): practicals/ChoroplethMaps01.md
   - Data sources: DataSources.md
 plugins:
   - search
