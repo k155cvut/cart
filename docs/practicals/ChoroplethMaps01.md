@@ -67,22 +67,29 @@ When statistical data can be classified and hierarchized, it should be transcrib
 !!! abstract "Unemployment Rate in Europe"
     **TASK:**
 
-    Make a series of simple choropleth maps showing the unemployment rate in european countries using two types of colour schemes – sequential (Map 1) and diverging (Map 2).
+    Make a series of simple choropleth maps showing the unemployment rate in European countries using two types of colour schemes – sequential (Map 1) and diverging (Map 2).
 
     <br>
-    In technical report describe and compare at least 4 different classification methods that are available in ArcGIS Pro and explain which of them is the best for your map.
+    In technical report describe and compare following classification methods that are available in ArcGIS Pro:
+    
+    - Equal Interval
+    - Quantile
+    - Natural Breaks (Jenks)
+    - Standard Deviation
+
+    Explain which of them is the best for your map. For each method insert the printscreen of the map.
 
     <br>
     **DATA SOURCES:**
     
       [:material-download: Eurostat (Unemployment Rate, 2024) :material-layers:](../assets/cviceni5/Europe_UnemploymentRate.csv){ .md-button .md-button--primary .button_smaller }
-      [:material-download: GISCO (Countries, 1:20m) :material-layers:](../assets/cviceni5/Europe_CNTR_20M_2024_3035.geojson){ .md-button .md-button--primary .button_smaller }
+      [:material-download: GISCO (Countries, 1:20m) :material-layers:](../assets/cviceni5/Europe_CNTR_20M_2024_3035.geojson){ .md-button .md-button--primary .button_smaller .download}
       {: .button_array style="justify-content:flex-start;"}
     
     <br>
     **SUBMISSION FORM:**
 
-    - technical report + 2 mapp in PDF format (submit by 30/03, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
+    - technical report + 2 maps in PDF format (submit by 30/03, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
     
     <div class="annotate" markdown>
     <br>
@@ -94,8 +101,8 @@ When statistical data can be classified and hierarchized, it should be transcrib
       - Join the table *Europe_UnemploymentRate.csv* to the polygon layer of countries
       - Export the joined table as a new feature class *(Data-Export Features)*
       - Symbolize the layer properly to show the unemployment rate in european countries *(Symbology-Graduated Colors)*. Choose sequential colour scheme.
-      - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*.
-    - Export *Layout* in PDF Format
+      - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*. Add explanation for the abbreviations of the country names used, if any.
+      - Export *Layout* in PDF Format
 
     <br>
     **Map 2:** **Simple Choropleth with Diverging Colour Scheme**
@@ -103,8 +110,8 @@ When statistical data can be classified and hierarchized, it should be transcrib
       - In *Catalog Pane-Maps* copy and paste the previous Map and rename it
       - In *Attribute Table* of your layer show the *Statistics* and find the mean value
       - Symbolize the layer properly to show the unemployment rate in european countries *(Symbology-Graduated Colors)*. Customize the colour scheme.
-      - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*.
-    - Export *Layout* in PDF Format
+      - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*. Add explanation for the abbreviations of the country names used, if any.
+      - Export *Layout* in PDF Format
 
     
 
