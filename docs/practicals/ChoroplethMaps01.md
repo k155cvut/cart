@@ -64,7 +64,7 @@ When statistical data can be classified and hierarchized, it should be transcrib
 
 
 ## Assignment 04a
-!!! abstract "Un"
+!!! abstract "Unemployment Rate in Europe"
     **TASK:**
 
     Make a series of simple choropleth maps showing the unemployment rate in european countries using two types of colour schemes – sequential (Map 1) and diverging (Map 2).
