@@ -13,8 +13,10 @@ Choropleth maps are used for relative quantitative data and ordered qualitative 
 - **Quantitative Data:** This type of data represents measurable numerical values. Common examples include population density, GDP, or election results.
 
 <br>
-![](../assets/cviceni5/DataTypes.png){ width=600px }
-    {: align=center}
+<figure markdown>
+  ![](../assets/cviceni5/DataTypes.png){ width=600px }
+  <figcaption>Source: Zanin and Lambert (2020)</figcaption>
+</figure>
 
 
 ## Data classification
@@ -29,8 +31,10 @@ To effectively display data in choropleth maps, classification methods are used 
 - **Standard Deviation:** This method classifies data based on its deviation from the mean. It is useful for identifying regions with significantly higher or lower values than the average.
 
 <br>
-![](../assets/cviceni5/MappingTheTruth.jpg){ width=600px }
-    {: align=center}
+<figure markdown>
+  ![](../assets/cviceni5/MappingTheTruth.jpg){ width=600px }
+  <figcaption>Source: IDV Solutions (2012)</figcaption>
+</figure>
 
 
 <br>
@@ -50,9 +54,10 @@ When statistical data can be classified and hierarchized, it should be transcrib
 - **Divergent Color Scales:** These are used when data has a meaningful midpoint, such as deviations from an average. They typically use two contrasting colors with a neutral color in the center. For example, an economic growth map might use red for negative growth, white for no change, and blue for positive growth.
 
 <br>
-![](../assets/cviceni5/ColourSchemes.png){ width=600px }
-    {: align=center}
-
+<figure markdown>
+  ![](../assets/cviceni5/ColourSchemes.png){ width=600px }
+  <figcaption>Source: AxisMaps (2020)</figcaption>
+</figure>
 <br>
 
 [ColorBrewer](https://colorbrewer2.org/){ .md-button .md-button--primary .server_name .external_link_icon_small target="_blank"}
@@ -112,7 +117,4 @@ When statistical data can be classified and hierarchized, it should be transcrib
       - Symbolize the layer properly to show the unemployment rate in european countries *(Symbology-Graduated Colors)*. Customize the colour scheme.
       - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*. Add explanation for the abbreviations of the country names used, if any.
       - Export *Layout* in PDF Format
-
-    
-
     

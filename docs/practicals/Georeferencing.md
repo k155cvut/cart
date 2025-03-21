@@ -39,6 +39,7 @@ __Resources:__
     
     - How has the extent of built-up area changed during the whole time period (relatively and absolutely)?
 
+
     <br>
     **DATA SOURCES:**
     
@@ -62,6 +63,11 @@ __Resources:__
     [OldMapsOnline](https://www.oldmapsonline.org/){ .md-button .md-button--primary .server_name .external_link_icon_small target="_blank"}
     [David Rumsey Map Collection](https://www.davidrumsey.com/){ .md-button .md-button--primary .server_name .external_link_icon_small target="_blank"}
     {: .button_array}
+
+
+    - If you want to use another (older) plan of Prague, you can use [:material-map: Jüttner's plan of Prague (1816)](https://gs-pub.praha.eu/arcgis/rest/services/arch/mapove_podklady_archiv/MapServer/1){ .md-button .md-button--primary .button_smaller }
+    <br>
+    *(Jüttner's plan of Prague (1816) is already georeferenced and provided via [ArcGIS REST service]("ArcGIS REST Service is a web service (such as WMS or WMTS) that allows users to access and interact with geographic data and GIS functionalities over the internet using RESTful APIs. It enables querying, visualization, and analysis of spatial data from ArcGIS Server in applications and web maps."), just copy the URL and add the map to ArcGIS Pro __(2)__{title="How to add data from path"}. and proceed to step 3)*
         
     <br>
     **Step 2:** **Georeference the map**
@@ -86,6 +92,7 @@ __Resources:__
     </div>
 
     1.  ![](../assets/cviceni4/ServerConnection.png){ .no-filter width=700px} Add WMS/WMTS service to ArcGIS Pro
+    2.  ![](../assets/cviceni4/AddDataFromPath.png){ .no-filter width=700px} Add data from path to ArcGIS Pro
 
     <br>
     ![](../assets/cviceni4/PragueMap.png){ width=600px }
