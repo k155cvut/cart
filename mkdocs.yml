@@ -7,6 +7,7 @@ nav:
       - Geocoding: practicals/Geocoding.md
       - Georeferencing, Vectorization: practicals/Georeferencing.md
       - Choropleth Maps (part 1): practicals/ChoroplethMaps01.md
+      - Choropleth Maps (part 2): practicals/ChoroplethMaps02.md
   - Data sources: DataSources.md
 plugins:
   - search

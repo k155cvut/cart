@@ -105,7 +105,7 @@ When statistical data can be classified and hierarchized, it should be transcrib
       - Add *Europe_CNTR_20M_2024_3035.geojson* to Map
       - Join the table *Europe_UnemploymentRate.csv* to the polygon layer of countries
       - Export the joined table as a new feature class *(Data-Export Features)*
-      - Symbolize the layer properly to show the unemployment rate in european countries *(Symbology-Graduated Colors)*. Choose sequential colour scheme.
+      - Symbolize the layer properly to show the unemployment rate in European countries *(Symbology-Graduated Colors)*. Choose sequential colour scheme.
       - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*. Add explanation for the abbreviations of the country names used, if any.
       - Export *Layout* in PDF Format
 
@@ -113,8 +113,18 @@ When statistical data can be classified and hierarchized, it should be transcrib
     **Map 2:** **Simple Choropleth with Diverging Colour Scheme**
       
       - In *Catalog Pane-Maps* copy and paste the previous Map and rename it
-      - In *Attribute Table* of your layer show the *Statistics* and find the mean value
-      - Symbolize the layer properly to show the unemployment rate in european countries *(Symbology-Graduated Colors)*. Customize the colour scheme.
-      - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*. Add explanation for the abbreviations of the country names used, if any.
+      - In *Symbology* create your own diverging colour scheme for 6 classes *(Colour Scheme-Format Colour Scheme)*. Use appropriate colours to distinguish the values above/below the mean unemployment rate. For inspiration use the *[ColorBrewer tool](https://colorbrewer2.org/)*. Save the colour scheme.
+      - Find the mean value of the displayed phenomenon *(More-Show statistics)* and modify class breaks to show 3 classes above the mean value *(high unemployment rate)* and 3 classes below the mean value *(low unemployment rate )*.
+
+        !!! note "Types of divergent Colour Schemes"
+            - In a divergent colour scheme, the choice between an even or odd number of intervals affects how the mean value is represented. With an even number of intervals, the mean value serves as a break point between two classes, emphasizing the contrast between values above/below the mean value. In contrast, a divergent colour scheme with an odd number of intervals includes the mean value within the middle class, which is typically represented by a neutral color (e.g. light yellow). This approach highlights the balance point and provides a clear visual distinction between increasing and decreasing values while ensuring that values around the midpoint remains visually distinct.
+            
+            <figure markdown>
+            ![Diverging Colour Schemes in ArcGIS Pro](../assets/cviceni5/DivergingColourScheme_ArcGISPro.png "Diverging Colour Schemes in ArcGIS Pro"){ width=600px }
+            <figcaption>Diverging Colour Schemes in ArcGIS Pro</figcaption>
+            </figure>
+
+      - Finish the layout: insert *Map Title*, *Scale*, *Legend* and *Credits*. Add explanation for the abbreviations of the country names used, if any.<br>
+      *(...or you can duplicate the final layout of Map 1...)*
       - Export *Layout* in PDF Format
     
