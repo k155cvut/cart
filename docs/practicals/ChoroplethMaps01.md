@@ -94,7 +94,7 @@ When statistical data can be classified and hierarchized, it should be transcrib
     <br>
     **SUBMISSION FORM:**
 
-    - technical report + 2 maps in PDF format (submit by 30/03, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
+    - technical report + 2 maps in PDF format (submit by 13/04, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
     
     <div class="annotate" markdown>
     <br>

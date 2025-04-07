@@ -5,18 +5,24 @@ title: Practical 6
 # Bivariate choropleth map
 A **bivariate choropleth map** is a thematic map that represents two variables simultaneously within the same geographic units. This type of visualization helps to identify spatial relationships and patterns between the two datasets. There are two basic approaches to design bivariate choropleth maps:
 
- 1. Using a combination of two sequential colour schemes 
- 2. Using a combination of hatched fill and coluor
+ 1. Using a combination of two sequential colour schemes
+
+    <figure markdown>
+      ![](../assets/cviceni6/BivariateChoropleth.jpg){ width=600px }
+      <figcaption>Bivariate choropleth map using a combination of two sequential colour schemes (Source: Vandenheuvel (2015))</figcaption>
+    </figure>
+    <!---[Vandenheuvel (2015)](https://gisnouveau.blogspot.com/2015/11/bivariate-maps-of-choropleth-persuasion.html)-->
+
+ 2. Using a combination of hatched fill and colour
+
+    <figure markdown>
+      ![](../assets/cviceni6/BivariateChoropleth_HatchedFill.png){ width=600px }
+      <figcaption>Bivariate choropleth map using a combination of hatched fill and colour (Source: Czech historical atlas (2021))</figcaption>
+    </figure>
+
  
  
 A bivariate choropleth map allows users to compare two different attributes, visualize their interactions, and analyze their spatial relations.
-
-<br>
-<figure markdown>
-  ![](../assets/cviceni6/BivariateChoropleth.jpg){ width=600px }
-  <figcaption>Source: Vandenheuvel (2015)</figcaption>
-</figure>
-<!---[Vandenheuvel (2015)](https://gisnouveau.blogspot.com/2015/11/bivariate-maps-of-choropleth-persuasion.html)-->
 
 
 <br>
@@ -38,7 +44,7 @@ A bivariate choropleth map allows users to compare two different attributes, vis
     <br>
     In technical report answer following questions:
     
-    - Compare all possible techniques of hatched fills (striped vs. dotted symbols, symbol spacing vs. symbol size). Which technique is more suitable and why?
+    - Compare all possible techniques of hatched fills (striped vs. dotted symbols, symbol spacing vs. symbol size). Which technique is more suitable and why? For each technique insert the printscreen of the map (no legend needed).
     - Compare two types of visualizations (2 colors vs. hatched fill+color) used for combined choropleth map. Which type of visualization is more suitable and why?
 
     <br>
@@ -53,7 +59,7 @@ A bivariate choropleth map allows users to compare two different attributes, vis
     <br>
     **SUBMISSION FORM:**
 
-    - technical report + 2 maps in PDF format (submit by 06/04, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
+    - technical report + 2 maps in PDF format (submit by 20/04, send to <a href="mailto:petra.justova@fsv.cvut.cz">petra.justova@fsv.cvut.cz</a>)
     
     <div class="annotate" markdown>
     <br>
