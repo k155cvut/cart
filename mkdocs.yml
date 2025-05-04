@@ -8,6 +8,7 @@ nav:
       - Georeferencing, Vectorization: practicals/Georeferencing.md
       - Choropleth Maps (part 1): practicals/ChoroplethMaps01.md
       - Choropleth Maps (part 2): practicals/ChoroplethMaps02.md
+      - Proportional Symbol Maps: practicals/ProportionalSymbols.md
   - Data sources: DataSources.md
 plugins:
   - search
