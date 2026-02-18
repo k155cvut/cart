@@ -71,9 +71,8 @@ __:simple-arcgis: Esri ArcGIS Pro__{: style="white-space: nowrap;"} software is 
 attendance recommended
 {: style="opacity:50%;margin-top:0;"}
 
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-1.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-[__prof. Ing. Jiří Cajthaml, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/jiri-cajthaml/)__&nbsp;__{style="margin-left:1rem;"}![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-[__Ing. Tomáš Janata, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/tomas-janata/)
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-16.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
+[__Mgr. Petra Justová, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/petra-justova/)
 
 
 1. Introduction to the course
@@ -93,7 +92,11 @@ attendance required
 {: style="opacity:50%;margin-top:0;"}
 
 ![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-16.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-[__Mgr. Petra Justová, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/petra-justova/)
+[__Mgr. Petra Justová, Ph.D.__](https://geomatics.fsv.cvut.cz/en/employees/petra-justova/)__&nbsp;__
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-13.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
+[__Ing. Josef Münzberger__](https://geomatics.fsv.cvut.cz/en/employees/josef-munzberger/)__&nbsp;__
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+[__Ing. Jan Koudelka__](https://geomatics.fsv.cvut.cz/en/employees/jan-koudelka/)
 
 1. Introduction to ArcGIS, spatial data, data sources
 2. Map Projections in Detail
@@ -107,15 +110,15 @@ attendance required
 10. Webmapping
 
 
-## Schedule (2025) {: style="margin-bottom:0;"}
+## Schedule (2026) {: style="margin-bottom:0;"}
 
 Up-to-date schedule is available on [__GeoWikiCZ__](https://geo.fsv.cvut.cz/gwiki/155CART_Cartography){.color_def .underlined_dotted .external_link_icon target="_blank"}
 
-[![](./assets/index/Schedule2025.png){.off-glb .no-filter style="width: 800px;"}](https://kos.cvut.cz/schedule/course/155CART/semester/B242){target="_blank"}
+[![](./assets/index/Schedule2026.png){.off-glb .no-filter style="width: 800px;"}](https://kos.cvut.cz/schedule/course/155CART/semester/B252){target="_blank"}
 
 ---
 
-[Course page in :custom-kos-logo-img-BW:{.middle style="margin-left:3px;"} :custom-kos-logo-BW:{.xl .middle}](https://kos.cvut.cz/course-syllabus/155CART/B242 "KOS is the official university administration system"){ .md-button .md-button--primary target="_blank"}
+[Course page in :custom-kos-logo-img-BW:{.middle style="margin-left:3px;"} :custom-kos-logo-BW:{.xl .middle}](https://kos.cvut.cz/course-syllabus/155CART/B252 "KOS is the official university administration system"){ .md-button .md-button--primary target="_blank"}
 {align=center}
 
 <br>
