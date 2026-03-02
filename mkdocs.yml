@@ -3,7 +3,8 @@ nav:
   - Course information: index.md
   - Practicals:
       - Introduction to ArcGIS, spatial data, data sources: practicals/Introduction.md
-      - Map projections: practicals/MapProjections.md
+      #- Map projections: practicals/MapProjections.md
+      - Map projections: practicals/mapprojections_new.md
       - Geocoding: practicals/Geocoding.md
       - Georeferencing, Vectorization: practicals/Georeferencing.md
       - Choropleth Maps (part 1): practicals/ChoroplethMaps01.md
