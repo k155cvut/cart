@@ -9,7 +9,7 @@ title: Practical 5
 
 To represent such information effectively, cartographers use different **mapping methods**. These are the cartographic techniques used to display data on a map in ways that match the nature of the phenomenon being shown. The choice of method depends on whether the data describe areas, points, movement, or continuous surfaces. Common mapping methods include choropleth maps, dot-density maps, proportional-symbol maps, flow maps, and isarithmic maps.
 
-<br>
+
 <figure markdown>
   ![](../assets/cviceni5/MapTypes.png){ width=600px }
   <figcaption>Source: Kraak and Ormeling (2010)</figcaption>
@@ -18,11 +18,18 @@ To represent such information effectively, cartographers use different **mapping
 ## Choropleth map
 **A choropleth map** is a type of thematic map in which geographic areas are shaded or coloured in proportion to a statistical variable. This technique is widely used in cartography to represent spatial data distributions, such as population density, election results, or economic indicators. Unlike other map types, choropleth maps rely on predefined geographic units (e.g., countries, states, or districts) to visualize data intensity or magnitude.
 
-<br>
+
 <figure markdown>
   ![](../assets/cviceni5/ChoroplethMapping.png){ width=600px }
   <figcaption>Source: Dent et al. (2009)</figcaption>
 </figure>
+
+
+<figure markdown>
+  ![](../assets/cviceni5/ChoroplethMap.png){ width=600px }
+  <figcaption>Unstandardized vs. standardized data in choropleth map</figcaption>
+</figure>
+
 
 ## Data types
 Choropleth maps are used for relative quantitative data and ordered qualitative data.
@@ -31,7 +38,7 @@ Choropleth maps are used for relative quantitative data and ordered qualitative 
 
 - **Quantitative Data:** This type of data represents measurable numerical values. Common examples include population density, GDP, or election results.
 
-<br>
+
 <figure markdown>
   ![](../assets/cviceni5/DataTypes.png){ width=600px }
   <figcaption>Source: Zanin and Lambert (2020)</figcaption>
@@ -49,7 +56,7 @@ To effectively display data in choropleth maps, classification methods are used 
 
 - **Standard Deviation:** This method classifies data based on its deviation from the mean. It is useful for identifying regions with significantly higher or lower values than the average.
 
-<br>
+
 <figure markdown>
   ![](../assets/cviceni5/MappingTheTruth.jpg){ width=600px }
   <figcaption>Source: IDV Solutions (2012)</figcaption>
@@ -72,12 +79,12 @@ When statistical data can be classified and hierarchized, it should be transcrib
 
 - **Divergent Color Scales:** These are used when data has a meaningful midpoint, such as deviations from an average. They typically use two contrasting colors with a neutral color in the center. For example, an economic growth map might use red for negative growth, white for no change, and blue for positive growth.
 
-<br>
+
 <figure markdown>
   ![](../assets/cviceni5/ColourSchemes.png){ width=600px }
   <figcaption>Source: AxisMaps (2020)</figcaption>
 </figure>
-<br>
+
 
 [ColorBrewer](https://colorbrewer2.org/){ .md-button .md-button--primary .server_name .external_link_icon_small target="_blank"}
 {: align=center }
