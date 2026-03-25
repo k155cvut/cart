@@ -60,11 +60,13 @@ __:simple-arcgis: Esri ArcGIS Pro__{: style="white-space: nowrap;"} software is 
 
 ## Literature
 
-- Brewer, C.A (2005) Designing Better Maps: A Guide for GIS Users. 2nd Edition, Esri Press, Redlands, California.
-- Field K. (2018) Cartography: A compendium of design thinking for mapmakers. Esri Press, Redlands, California.
-- Field K. (2022) Thematic mapping: 101 inspiring ways to visualise empirical data. Esri Press, Redlands, California.
-- Lambert, N. and Zanin, C. (2020). Practical handbook of thematic cartography: Principles, methods, and applications. CRC Press.
-- Slocum, T. A., et al. (2008) Thematic Cartography and Geovisualization. 3rd Edition, Prentice Hall.
+- Brewer, C.A. (2015) Designing Better Maps: A Guide for GIS Users. 2nd Edition, Esri Press, Redlands, California.
+- Dent, B.D., Torguson, J.S. and Hodler, T.W. (2009) Cartography: Thematic Map Design. 6th Edition, McGraw-Hill Higher Education, Boston.
+- Field, K. (2018) Cartography: A Compendium of Design Thinking for Mapmakers. Esri Press, Redlands, California.
+- Field, K. (2022) Thematic Mapping: 101 Inspiring Ways to Visualise Empirical Data. Esri Press, Redlands, California.
+- Kraak, M.J. and Ormeling, F.J. (2010) Cartography: Visualization of Spatial Data. 3rd Edition, Pearson Education, Harlow.
+- Lambert, N. and Zanin, C. (2020) Practical Handbook of Thematic Cartography: Principles, Methods, and Applications. 1st Edition, CRC Press, Boca Raton, Florida.
+- Slocum, T.A., McMaster, R.B., Kessler, F.C. and Howard, H.H. (2009) Thematic Cartography and Geovisualization. 3rd Edition, Pearson Prentice Hall, Upper Saddle River, New Jersey.
 
 ## Lectures {: style="margin-bottom:0;"}
 

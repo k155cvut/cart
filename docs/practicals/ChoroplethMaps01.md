@@ -2,8 +2,27 @@
 icon: material/numeric-5-box
 title: Practical 5
 ---
-# Choropleth map
-A choropleth map is a type of thematic map in which geographic areas are shaded or coloured in proportion to a statistical variable. This technique is widely used in cartography to represent spatial data distributions, such as population density, election results, or economic indicators. Unlike other map types, choropleth maps rely on predefined geographic units (e.g., countries, states, or districts) to visualize data intensity or magnitude.
+# Thematic mapping - choropleth maps
+
+## Thematic maps
+**Thematic maps** are maps that show the spatial distribution of a particular topic or phenomenon. Unlike general reference maps, which mainly help users locate places, thematic maps are designed to highlight patterns, differences, and relationships across an area. They can be used to present information such as population density, language distribution, land use, or income.
+
+To represent such information effectively, cartographers use different **mapping methods**. These are the cartographic techniques used to display data on a map in ways that match the nature of the phenomenon being shown. The choice of method depends on whether the data describe areas, points, movement, or continuous surfaces. Common mapping methods include choropleth maps, dot-density maps, proportional-symbol maps, flow maps, and isarithmic maps.
+
+<br>
+<figure markdown>
+  ![](../assets/cviceni5/MapTypes.png){ width=600px }
+  <figcaption>Source: Kraak and Ormeling (2010)</figcaption>
+</figure>
+
+## Choropleth map
+**A choropleth map** is a type of thematic map in which geographic areas are shaded or coloured in proportion to a statistical variable. This technique is widely used in cartography to represent spatial data distributions, such as population density, election results, or economic indicators. Unlike other map types, choropleth maps rely on predefined geographic units (e.g., countries, states, or districts) to visualize data intensity or magnitude.
+
+<br>
+<figure markdown>
+  ![](../assets/cviceni5/ChoroplethMapping.png){ width=600px }
+  <figcaption>Source: Dent et al. (2009)</figcaption>
+</figure>
 
 ## Data types
 Choropleth maps are used for relative quantitative data and ordered qualitative data.
